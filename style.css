@@ -1,48 +1,64 @@
-body{
-    font-family: 'Times New Roman', Times, serif;
-    background-color: rgb(255, 0, 157);
-    padding: 20px;
+body {
+  font-family: "Times New Roman", Times, serif;
+  background-color: rgb(255, 0, 157);
+  padding: 20px;
 }
 
-
-h1{
-    color: blueviolet;
-    font: size 100px;
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    margin-top: 20px;
-
+h1 {
+  color: blueviolet;
+  font: size 100px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 20px;
 }
-input{
-    font-size: 100%;
-    border-radius: 200px;
-    border: 3px solid brown;
-    padding: 10px;
-    margin-left: 10px;
-
+input {
+  font-size: 100%;
+  border-radius: 200px;
+  border: 3px solid brown;
+  padding: 10px;
+  margin-left: 10px;
 }
-button{
-    background-color: aqua;
-    color: black;
-    padding: 5px;
-    border-radius: 5px;
-    cursor: default;
-
+button {
+  background-color: aqua;
+  color: black;
+  padding: 5px;
+  border-radius: 5px;
+  cursor: default;
 }
-.category tag{
-    color: brown;
-    font-size: 80px;
-    font-weight: bold;
-    margin-right: 6px;
-
+.category tag {
+  color: brown;
+  font-size: 80px;
+  font-weight: bold;
+  margin-right: 6px;
 }
-.category-Friend{
-    background-color: palevioletred;
+.category-Friend {
+  background-color: palevioletred;
 }
-.category-Family{
-    background-color: rgb(250, 10, 10);
+.category-Family {
+  background-color: rgb(250, 10, 10);
 }
 
-.category-Colleague{
-    background-color: blue;
+.category-Colleague {
+  background-color: blue;
+}
+======= .tag-friend {
+  background-color: brown;
+  color: aqua;
+  padding: 3px;
+  border-radius: 10px;
+  margin-right: 5px;
+}
+.tag-family {
+  background-color: palevioletred;
+  color: aqua;
+  padding: 3px;
+  border-radius: 10px;
+  margin-right: 5px;
+}
+.tag-colleague {
+  background-color: rgb(255, 240, 240);
+  color: burlywood;
+  padding: 3px;
+  border-radius: 10px;
+  margin-right: 5px;
 }
