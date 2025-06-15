@@ -29,29 +29,20 @@ button{
     cursor: default;
 
 }
-.tag-friend{
-    background-color: brown;
-    color: aqua;
-    padding: 3px;
-    border-radius: 10px;
-    margin-right: 5px;
-    
+.category tag{
+    color: brown;
+    font-size: 80px;
+    font-weight: bold;
+    margin-right: 6px;
 
 }
-.tag-family{
+.category-Friend{
     background-color: palevioletred;
-    color: aqua;
-    padding: 3px;
-    border-radius: 10px;
-    margin-right: 5px;
-   
 }
-.tag-colleague{
-    background-color: rgb(255, 240, 240);
-    color: burlywood;
-    padding: 3px;
-    border-radius: 10px;
-    margin-right: 5px;
-
+.category-Family{
+    background-color: rgb(250, 10, 10);
 }
 
+.category-Colleague{
+    background-color: blue;
+}
