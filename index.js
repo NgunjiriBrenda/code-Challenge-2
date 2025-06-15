@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 const form = document.getElementById('guest-form');
 const list = document.getElementById('guest-list');
 
@@ -27,11 +27,9 @@ function addGuest(name, category){
     list.prepend(guest);
 
 }
-=======
 document.getElementById('guest-form').addEventListener('submit',(event) =>{
     event.preventDefault();
     const name = document.getElementById('guest-name').value ();
     const category = docume
 }
 )
->>>>>>> 04dcdf36c84128c2edb6556ed23a8632dc8331a8
