@@ -25,11 +25,4 @@ function addGuest(name, category){
         guest.remove();
     });
     list.prepend(guest);
-
-}
-document.getElementById('guest-form').addEventListener('submit',(event) =>{
-    event.preventDefault();
-    const name = document.getElementById('guest-name').value ();
-    const category = docume
-}
-)
+    form.reset();
