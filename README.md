@@ -2,9 +2,13 @@
 This is a simple event guest list manager made with Html,Css and Javascript.
 
 #Features found:
-Add guests by name and category(Friend,Family or Colleague).
+Add guests by name and category(Friend,Family and Colleague).
 -Add guests with a button.
 -Has color tags to differentiate who's friend, family and colleague.
+
+-the color tag for Family is Brown.
+-The color tag for Friend is Pink.
+-The color tag for Colleague is Blue.
 
 #How to use it:
 -Open index.html in your browser.
