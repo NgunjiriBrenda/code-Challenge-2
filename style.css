@@ -1,7 +1,7 @@
 body {
   font-family: "Times New Roman", Times, serif;
-  background-color: rgb(255, 0, 157);
   padding: 20px;
+  background-color: rgb(158, 72, 122);
 }
 
 h1 {
@@ -25,19 +25,21 @@ button {
   border-radius: 5px;
   cursor: default;
 }
-.category tag {
-  color: brown;
-  font-size: 80px;
-  font-weight: bold;
-  margin-right: 6px;
-}
-.category-Friend {
-  background-color: palevioletred;
-}
-.category-Family {
-  background-color: rgb(250, 10, 10);
-}
 
-.category-Colleague {
+#guest-list div{
+  color: black;
+  padding: 5px;
+
+}
+.friend {
+  background-color: rgb(243, 10, 87);
+  color: blueviolet;
+}
+.family {
+  background-color: rgb(116, 14, 14);
+  color: rgb(15, 243, 243);
+}
+.colleague {
   background-color: blue;
+  color: rgb(0, 0, 0);
 }
